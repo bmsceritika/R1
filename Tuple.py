@@ -1,9 +1,9 @@
-def lot():
-    s=input("Enter the string")
-    A=[]
+def lot(s):
+    a=[]
     for i in s.split(sep=";"):
-        A.append(tuple(i.split(sep="=")))
-    return(A)
-ca2lot=lot()
+        a.append(tuple(i.split(sep="=")))
+    return(a)
+str=input("Enter the string")
+ca2lot=lot(str)
 print(ca2lot)
                
