@@ -4,5 +4,6 @@ def data():
 	uname=input("Enter your username")
 	passw=input("Enter your password")
 	a="servername="+sname+";"+"dbname="+dbname+";"+"userername="+uname+";"+"password="+passw
-	print(a)
-data()
+	return(a)
+Data=data()
+print(Data)
